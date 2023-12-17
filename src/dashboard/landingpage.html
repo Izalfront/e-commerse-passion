@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+    <link rel="stylesheet" href="../../dist/style.css" />
+  </head>
+  <body style="background: #131927">
+    <!-- start top bar -->
+    <header class="flex justify-between items-end h-full text-white pl-24">
+      <ul class="flex px-4 text-gray-400 font-normal mt-3">
+        <li class="mr-6"><a href="#">About us</a></li>
+        <li class="mr-6"><a href="#">Order Tracking</a></li>
+        <li class="mr-6"><a href="#">FAQs</a></li>
+      </ul>
+    </header>
+    <!-- end top bar -->
+    <!-- start header 1 -->
+    <div class="border-t border-gray-600 mt-5"></div>
+    <search class="flex justify-between items-start h-full text-white pl-28 rounded-lg mt-8" style="background: #131927">
+      <div class="logo">
+        <h1 class="text-3xl font-semibold text-white">logo</h1>
+      </div>
+      <div class="bg-gray-800 pr-6 rounded-md border border-gray-600 mr-5 translate-x-96">
+        <div class="flex">
+          <div class="search-icon p-3 bg-blue-500 rounded-l-md">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </div>
+          <input type="text" placeholder="Cari Produk ..." class="bg-gray-800 ml-4 pr-6 outline-none" />
+        </div>
+      </div>
+      <div class="icon grid grid-cols-4 mr-24 space-x-4">
+        <div></div>
+        <div class="flex items-center p-3 rounded-full text-white border border-gray-600 bg-gray-800">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+          </svg>
+        </div>
+
+        <div class="flex items-center p-3 rounded-full text-white border border-gray-600 bg-gray-800">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+            />
+          </svg>
+        </div>
+
+        <div class="flex items-center p-3 rounded-full text-white border border-gray-600 bg-gray-800">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
+            />
+          </svg>
+        </div>
+      </div>
+    </search>
+
+    <div class="border-t border-gray-600 mt-6"></div>
+    <div class="flex justify-between items-end h-full">
+      <div class="relative inline-block text-left items-center mb-5 ml-48">
+        <button
+          type="button"
+          class="inline-flex justify-center items-center px-8 py-3 rounded-md shadow-sm bg-blue-500 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+          id="options-menu"
+          aria-haspopup="true"
+          aria-expanded="true"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          All Categories
+          <svg class="-mr-1 pt-2 ml-2 h-6 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M10 3a1 1 0 01.707.293l4 4a1 1 0 01-1.414 1.414L10 5.414 6.707 8.707a1 1 0 01-1.414-1.414l4-4A1 1 0 0110 3z" clip-rule="evenodd" />
+          </svg>
+        </button>
+
+        <!-- <div class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          <div class="py-1" role="none">
+            <a href="#" class="block px-4 py-2 text-sm text-gray-200 hover:bg-gray-500 hover:text-white" role="menuitem">Item 1</a>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-200 hover:bg-gray-500 hover:text-white" role="menuitem">Item 2</a>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-200 hover:bg-gray-500 hover:text-white" role="menuitem">Item 3</a>
+          </div>
+        </div> -->
+      </div>
+
+      <header class="flex justify-between items-end h-full bg-gray-800 text-white pl-28 mr-28 rounded-lg">
+        <ul class="flex px-4 py-8 text-gray-400 font-medium">
+          <li class="mr-6"><a href="#">Mens</a></li>
+          <li class="mr-6"><a href="#">Woman</a></li>
+          <li class="mr-6"><a href="#">Kids</a></li>
+          <li class="mr-6"><a href="#">Electronic Items</a></li>
+          <li class="mr-6"><a href="#">Kitchen Accessories</a></li>
+          <li class="mr-6"><a href="#">News & Blogs</a></li>
+          <li class="mr-6"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </header>
+    </div>
+    <!-- end header 1 -->
+    <!-- start section 1 -->
+    <section class="grid grid-cols-2">
+      <div class="image">
+        <img src="../../img/firstly.jpg" alt="" width="1500px" />
+      </div>
+      <div class="isi ml-16 mt-48">
+        <span class="text-2xl font-semibold text-blue-600 mb-5">Trending Products</span>
+        <h1 class="text-5xl font-bold text-white mt-2">
+          New Arrival From<br />
+          Mans Collections
+        </h1>
+        <p class="text-white opacity-50 mt-3 mb-12">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna,<br />
+          scelerisque vitae augue et, cursus placerat lorem. In nisi lacus,<br />
+          eleifend tincidunt quam et, consequat semper.
+        </p>
+        <a href="#" class="mt-3 text-white font-medium text-lg px-6 py-3 border-2 border-white hover:text-slate-800 hover:bg-white transition duration-300 ease-in-out">Shop Now</a>
+      </div>
+    </section>
+    <!-- end section 1 -->
+    <!-- start collection -->
+    <section class="mt-28 mb-20">
+      <div class="judul-collection">
+        <span class="text-lg font-semibold text-blue-600 flex text-center items-center justify-center">Recent Products</span>
+        <span class="text-5xl font-bold text-white flex text-center items-center justify-center">Top Collections</span>
+        <p class="flex text-center items-center justify-center text-white opacity-50 mt-5">
+          There are many variations of passages of Lorem Ipsum available<br />
+          but the majority have suffered alteration in some form.
+        </p>
+      </div>
+      <div class="store grid grid-cols-4 gap-4 mt-16 mx-auto max-w-screen-xl">
+        <div class="card">
+          <img src="../../img/collection 1/model 2.jpg" alt="" class="rounded-md w-full" />
+          <div class="barang flex justify-between my-6">
+            <h1 class="text-white font-bold text-lg">Women Collection</h1>
+            <p class="text-blue-500 font-semibold">Rp 350.000</p>
+          </div>
+          <a href="#" class="text-white opacity-60">Selengkapnya</a>
+        </div>
+        <div class="card">
+          <img src="../../img/collection 1/model 2.jpg" alt="" class="rounded-md w-full" />
+          <div class="barang flex justify-between my-6">
+            <h1 class="text-white font-bold text-lg">Women Collection</h1>
+            <p class="text-blue-500 font-semibold">Rp 350.000</p>
+          </div>
+          <a href="#" class="text-white opacity-60">Selengkapnya</a>
+        </div>
+        <div class="card">
+          <img src="../../img/collection 1/model 3.jpeg" alt="" class="rounded-md w-full" />
+          <div class="barang flex justify-between my-6">
+            <h1 class="text-white font-bold text-lg">Women Collection</h1>
+            <p class="text-blue-500 font-semibold">Rp 350.000</p>
+          </div>
+          <a href="#" class="text-white opacity-60">Selengkapnya</a>
+        </div>
+        <div class="card">
+          <img src="../../img/collection 1/model 3.jpeg" alt="" class="rounded-md w-full" />
+          <div class="barang flex justify-between my-6">
+            <h1 class="text-white font-bold text-lg">Women Collection</h1>
+            <p class="text-blue-500 font-semibold">Rp 350.000</p>
+          </div>
+          <a href="#" class="text-white opacity-60">Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+    <!-- end collection -->
+    <!-- start grid collection -->
+    <section>
+      <div class="flex justify-center items-center h-screen space-x-6">
+        <div class="max-w-2xl rounded-lg overflow-hidden shadow-lg bg-gray-800 border border-gray-700">
+          <img class="w-full" src="../../img/grid/grid 2.jpg" alt="Card image" />
+          <div class="px-6 py-4">
+            <p class="text-white opacity-60 font-normal mb-4">Lorem Ipsum</p>
+            <div class="font-bold text-2xl text-white">Hijab Lorem Ipsum Dolor Si Amet</div>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Rp 250.000</span>
+            <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white">Diskon 20%</span>
+          </div>
+        </div>
+        <div class="max-w-lg rounded-lg overflow-hidden shadow-lg bg-gray-800 border border-gray-700">
+          <img class="w-full" src="../../img/grid/pre.jpg" alt="Card image" />
+          <div class="px-6 py-4">
+            <p class="text-white opacity-60 font-normal mb-4">Lorem Ipsum</p>
+            <div class="font-bold text-2xl text-white">Hijab Lorem Ipsum Dolor Si Amet</div>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Rp 250.000</span>
+            <!-- <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-white"></span> -->
+          </div>
+        </div>
+        <!--  -->
+
+        <!--  -->
+      </div>
+      <!--  -->
+      <div class="flex justify-center items-center h-screen space-x-6">
+        <div class="max-w-lg rounded-lg overflow-hidden shadow-lg bg-gray-800 border border-gray-700">
+          <img class="w-full" src="../../img/grid/pre.jpg" alt="Card image" />
+          <div class="px-6 py-4">
+            <p class="text-white opacity-60 font-normal mb-4">Lorem Ipsum</p>
+            <div class="font-bold text-2xl text-white">Hijab Lorem Ipsum Dolor Si Amet</div>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Rp 250.000</span>
+            <!-- <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-white"></span> -->
+          </div>
+        </div>
+        <!--  -->
+        <div class="max-w-2xl rounded-lg overflow-hidden shadow-lg bg-gray-800 border border-gray-700">
+          <img class="w-full" src="../../img/grid/grid 2.jpg" alt="Card image" />
+          <div class="px-6 py-4">
+            <p class="text-white opacity-60 font-normal mb-4">Lorem Ipsum</p>
+            <div class="font-bold text-2xl text-white">Hijab Lorem Ipsum Dolor Si Amet</div>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Rp 250.000</span>
+            <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white">Diskon 20%</span>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </section>
+    <!-- end grid collection -->
+    <!-- start category -->
+    <section>
+      <div class="judul-category mt-36 mb-24">
+        <h1 class="text-white font-bold text-4xl mb-5 ml-36">Shop By Category</h1>
+        <div class="flex justify-between mx-36">
+          <p class="text-white opacity-60">
+            There are many variations of passages of Lorem Ipsum available<br />
+            but the majority have suffered alteration in some form.
+          </p>
+          <a href="#" class="px-8 py-3 border border-slate-500 text-white font-semibold hover:text-slate-800 hover:bg-white transition duration-300 ease-in-out">Explore All</a>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="mx-36 flex space-x-6 mb-28">
+        <div class="max-w-md rounded-lg overflow-hidden shadow-lg bg-gray-800 border border-gray-700">
+          <img class="w-full" src="../../img/category/furniture.jpg" alt="Card image" />
+          <div class="px-6 py-4">
+            <p class="text-white opacity-60 font-normal mb-4">#furniture</p>
+            <div class="font-bold text-2xl text-white">Furniture Minimalis</div>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-gray-600 rounded-full px-3 py-2 text-sm font-semibold text-white cursor-pointer">Selengkapnya</span>
+          </div>
+        </div>
+        <div class="max-w-md rounded-lg overflow-hidden shadow-lg bg-gray-800 border border-gray-700">
+          <img class="" src="../../img/category/acesories.jpg" alt="Card image" width="960" />
+          <div class="px-6 py-4">
+            <p class="text-white opacity-60 font-normal mb-4">#aksesoriswanita</p>
+            <div class="font-bold text-2xl text-white">Koleksi Aksesoris Wanita</div>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-gray-600 rounded-full px-3 py-2 text-sm font-semibold text-white cursor-pointer">Selengkapnya</span>
+          </div>
+        </div>
+        <div class="max-w-md rounded-lg overflow-hidden shadow-lg bg-gray-800 border border-gray-700">
+          <img class="w-full" src="../../img/category/kitchen.png" alt="Card image" />
+          <div class="px-6 py-4">
+            <p class="text-white opacity-60 font-normal mb-4">#dapur</p>
+            <div class="font-bold text-2xl text-white">Koleksi Set Dapur</div>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-gray-600 rounded-full px-3 py-2 text-sm font-semibold text-white cursor-pointer">Selengkapnya</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end category -->
+    <!-- start other -->
+    <section class="mb-12">
+      <div class="grid grid-cols-4 mx-36 gap-8">
+        <div class="harga text-center">
+          <img src="../../img/other/sepatu.jpg" alt="" class="rounded-md" />
+          <h1 class="font-bold text-white text-2xl mb-2 mt-5">Sneakers</h1>
+          <p class="font-semibold text-white text-base mb-8">Rp 230.000</p>
+          <a href="#" class="px-6 py-3 border border-slate-700 font-semibold text-white hover:text-slate-800 hover:bg-white transition duration-300 ease-in-out">Shop Now</a>
+        </div>
+        <div class="harga text-center">
+          <img src="../../img/other/tshirt.jpg" alt="" class="rounded-md" />
+          <h1 class="font-bold text-white text-2xl mb-2 mt-5">T Shirt Laki - laki</h1>
+          <p class="font-semibold text-white text-base mb-8">Rp 230.000</p>
+          <a href="#" class="px-6 py-3 border border-slate-700 font-semibold text-white hover:text-slate-800 hover:bg-white transition duration-300 ease-in-out">Shop Now</a>
+        </div>
+        <div class="harga text-center">
+          <img src="../../img/other/tshirtw.jpg" alt="" class="rounded-md" />
+          <h1 class="font-bold text-white text-2xl mb-2 mt-5">T Shirt Wanita</h1>
+          <p class="font-semibold text-white text-base mb-8">Rp 230.000</p>
+          <a href="#" class="px-6 py-3 border border-slate-700 font-semibold text-white hover:text-slate-800 hover:bg-white transition duration-300 ease-in-out">Shop Now</a>
+        </div>
+        <div class="harga text-center">
+          <img src="../../img/other/tas.jpg" alt="" class="rounded-md" />
+          <h1 class="font-bold text-white text-2xl mb-2 mt-5">Tas Wanita</h1>
+          <p class="font-semibold text-white text-base mb-8">Rp 230.000</p>
+          <a href="#" class="px-6 py-3 border border-slate-700 font-semibold text-white hover:text-slate-800 hover:bg-white transition duration-300 ease-in-out">Shop Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- end other -->
+    <!-- start footer -->
+
+    <footer class="bg-gray-800 px-8 py-6 mt-16 mx-36 rounded-lg grid grid-cols-3 mb-12 border border-gray-700">
+      <div class="mr-5">
+        <h1 class="text-white text-2xl font-bold mb-8">Logo</h1>
+        <p class="text-white font-normal opacity-60">
+          Lorem ipsum dolor sit amet, consectetur<br />
+          adipiscing elit. Cras eget lorem.
+        </p>
+      </div>
+      <div class="">
+        <div class="footer">
+          <h1 class="text-white text-2xl font-bold mb-8 block">Useful Links</h1>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="block space-y-4">
+              <p class="text-white font-normal opacity-60">Legal & Privacy</p>
+              <p class="text-white font-normal opacity-60">Contact</p>
+              <p class="text-white font-normal opacity-60">Gift Card</p>
+              <p class="text-white font-normal opacity-60">Customer Service</p>
+            </div>
+            <div class="block space-y-4">
+              <p class="text-white font-normal opacity-60">Women</p>
+              <p class="text-white font-normal opacity-60">Accessories</p>
+              <p class="text-white font-normal opacity-60">Men</p>
+              <p class="text-white font-normal opacity-60">Gift</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="email">
+        <h1 class="text-white text-2xl font-bold mb-8 block">Subscribe Newsletter</h1>
+        <p class="text-white font-normal opacity-60">Enter your email to receive our valuable<br />newsletters.</p>
+        <div class="flex mt-12">
+          <div class="email-icon p-3 bg-gray-900 text-white border border-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+              />
+            </svg>
+          </div>
+          <input type="email" placeholder="Tulis Email Anda" class="bg-gray-900 pr-6 outline-none pl-4 border border-gray-700 text-white" />
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- script js -->
+    <script src="../../dist/script.js"></script>
+  </body>
+</html>
